@@ -1,0 +1,15 @@
+// =============================================================================
+// BREAKPOINTS
+// =============================================================================
+
+$breakpoint-small: 480px !default;
+$breakpoint-medium: 736px !default;
+$breakpoint-large: 1280px !default;
+$breakpoint-huge: 1690px !default;
+
+$breakpoints: (
+	'small': $breakpoint-small,
+	'medium': $breakpoint-medium,
+	'large': $breakpoint-large,
+	'huge': $breakpoint-huge
+);
