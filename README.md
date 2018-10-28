@@ -59,4 +59,17 @@ One of the most important rules is, that you can't have an element inside an ele
 
 ## ITCSS
 
+ITCSS stands for **I**nverted **T**riangle **CSS** and is an architecture that helps you to organize your project CSS files. 
+
+![ITCSS](itcss.png)
+
+It is important not to output any CSS in the first 2 layers. These are the layers:
+- **Settings**: It contains variables and maps for fonts, colors and so on.
+- **Tools**: It is mostly used for mixins and functions. 
+- **Generic**: Here we have reset, normalize, box-sizing definition  and so on.
+- **Elements**: This is styling for HTML elements like `<h1>` and `<img>`. We want to define them here to overwrite the browser styling.
+- **Objects**: This is used for class-based selectors focused around design patterns. This might be layout or grid.
+- **Components**: It is here most of the styling would take place. This is UI components like buttons or the menu.
+- **Trumps**: Here we are able to overwrite anything before this layer.
+
 ## BEMIT
