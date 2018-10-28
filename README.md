@@ -1,5 +1,11 @@
 # blepbemit 🎨
 
-This is a boilerplate for using SCSS with BEMIT. 
+This is a boilerplate for using SCSS with [BEMIT](#bemit). 
 
-That is a combination of the naming convention BEM and the ITCSS architecture.
+That is a combination of the naming convention [BEM](#bem) and the [ITCSS](#itcss) architecture.
+
+## BEM
+
+## ITCSS
+
+## BEMIT
