@@ -73,3 +73,5 @@ It is important not to output any CSS in the first 2 layers. These are the layer
 - **Trumps**: Here we are able to overwrite anything before this layer.
 
 ## BEMIT
+
+This is when you are combining **BEM** and **IT**CSS. The examples above has the naming convention implemented. Settings, tools, generic and elements does not include class selectors. These are the one we use: **Objects**: `o-`, **Components**: `c-` and **Trumps**: `u-`. On trumps we use `u-` because it is also called utilities.
