@@ -61,6 +61,10 @@ One of the most important rules is, that you can't have an element inside an ele
 
 ITCSS stands for **I**nverted **T**riangle **CSS** and is an architecture that helps you to organize your project CSS files. 
 
+<p align="center">
+    <img src="https://raw.githubusercontent.com/steffenpedersen/bemit-boilerplate/master/itcss.png" width="400px">
+</p>
+
 It is important not to output any CSS in the first 2 layers. These are the layers:
 - **Settings**: It contains variables and maps for fonts, colors and so on.
 - **Tools**: It is mostly used for mixins and functions. 
